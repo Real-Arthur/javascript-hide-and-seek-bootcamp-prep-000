@@ -22,9 +22,9 @@ function deepestChild() {
 
 function increaseRankBy(n) {
   const whatever = document.getElementById('app').querySelectorAll('ul.ranked-list li')
-  var x = parseInt(n, 10)
+  
   for (let i = 0; i < whatever.length; i++) {
-    whatever[i].innerHTML = (i + x).toString()
+    whatever[i].innerHTML = i + n
     }
 }
 
