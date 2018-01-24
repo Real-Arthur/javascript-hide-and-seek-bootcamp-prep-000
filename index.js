@@ -14,7 +14,8 @@ function deepestChild() {
   const nodeTwo = nodeOne.querySelector('div')
   const nodeThree = nodeTwo.querySelector('div')
   const nodeFour = nodeThree.querySelector('div')
-  return nodeFour
+  const nodeFive = nodeFour.querySelector('div')
+  return nodeFive
   
 }
 
